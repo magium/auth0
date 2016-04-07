@@ -1,0 +1,26 @@
+{
+  "name" : "magium/auth0",
+  "type": "library",
+  "description": "Provides a mechanism for using the Auth0 authentication platform",
+  "keywords": ["selenium", "webdriver", "testing", "auth0"],
+  "homepage": "https://github.com/magium/auth0",
+  "license": "ASL-2.0",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@mirageworks.com",
+      "homepage": "http://magiumlib.com/",
+      "role": "Developer"
+    }
+  ],
+  "require" : {
+    "magium/magium": ">=0.0.51 <2.0.0",
+    "magium/twitter": "0.9"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Magium\\Auth0\\" : "lib/",
+      "Tests\\Magium\\Auth0\\" : "tests/"
+    }
+  }
+}
