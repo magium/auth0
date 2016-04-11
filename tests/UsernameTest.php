@@ -19,7 +19,7 @@ class UsernameTest extends AbstractTestCase
 
         // This part of the test should work on your system.  If it doesn't work then something is probably wrong.
 
-        // Make sure you configure your twitter account in the file /configuration/Magium/Twitter/Identities/Twitter.php
+        // Make sure you configure your twitter account in the file /configuration/Magium/Auth0/Identities/Username.php
 
         /*
          * $this->username = 'username';
@@ -30,7 +30,7 @@ class UsernameTest extends AbstractTestCase
         /* @var $action Login */
         $action->setIdentity($this->getIdentity(Username::IDENTITY));
         $action->execute();
-        
+
         $this->webdriver->wait(5)->until(ExpectedCondition::elementExists('login-link'));
 
     }
