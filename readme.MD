@@ -2,7 +2,7 @@
 
 At the moment this project is a work in progress and only supports [Twitter](https://www.github.com/magium/twitter), though it is not difficult to add additional authentication methods (and they will be added).
 
-The purpose of this library is to provide a means of doing browser test automation using the Auth0 service from within [Magium](http://www.magiumlib.com/).
+The purpose of this library is to provide a means of doing browser test automation using the [Auth0](https://auth0.com/) service from within [Magium](http://www.magiumlib.com/).
 
 ## Configuring your Twitter account
 
